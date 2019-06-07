@@ -58,10 +58,6 @@ function handleDeleteItemClicked(){
 }
 
 
-$(()=>{
-  
-});
-
 function main(){
   renderShoppingList();
   handleNewItemSubmit();
