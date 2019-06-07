@@ -24,6 +24,17 @@
       <input id="search-input" type="text" name="shopping-search-entry" class="js-shopping-search-entry" placeholder="e.g., apples">
       <button type="submit">Search</button>
     </form>
+
+    <form id="js-shopping-sort-form" action="" type='post'>
+      <label for="shopping-sort-entry">Sort by: </label>
+      <select id="sort-select" name="shopping-sort-entry" class="js-shopping-sort-entry">
+        <option value="alpha">Alphabetical</option>
+        <option value="time">Oldest</option>
+        <option value="mostRecent">Most Recent</option>
+
+      </select>
+    </form>
+
     <div class="filter-controls">
       <input type="checkbox" id="hide-completed-toggle" class="js-hide-completed-toggle" />
       <label for="hide-completed-toggle">Hide Completed</label>
